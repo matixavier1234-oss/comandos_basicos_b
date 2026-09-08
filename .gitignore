@@ -3,3 +3,20 @@
 .env
 *.log
 indicaciones.info
+node_modules/
+jspm_packages/
+.env.local
+.env.*.local
+*.env
+#Compilación y salida de producción (dist, build, Astro, Next, etc.)
+dist/
+build/
+out/
+.next/
+.astro/
+.output/
+#Cachés de herramientas y empaquetadores
+.cache/
+.parcel-cache/
+.turbo/
+.eslintcache
